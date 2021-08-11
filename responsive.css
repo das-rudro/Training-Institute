@@ -1,0 +1,251 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+
+    .banner-wrapper{
+        margin-top: 142px;
+    }
+
+    .banner h6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .banner p , .about p{
+        font-size: 22px;
+    }
+
+    .details-right {
+        margin-left: 14px;
+    }
+
+    .details-right p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .details-right h1 {
+        font-size: 28px;
+    }
+
+
+    .details-right h1::after {
+        top: 34px;
+        left: 4px;
+    }
+
+    .ser-details p {
+        font-size: 14px;
+    }
+
+    .blog-details h1 {
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 3px;
+    }
+
+    .blog-details p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .gallery h5 {
+        font-size: 18px;
+    }
+
+    .gallery p{
+        font-size: 22px;
+    }
+
+    .clint-one a {
+        font-size: 15px;
+    }
+
+    .footer-one-details h6 {
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    .f-top-one h5 {
+        font-size: 18px;
+        margin-top: 45px;
+    }
+
+    .f-icon{
+        letter-spacing: 4px;
+        line-height: 38px;
+    }
+
+    .f-top-two-right{
+        margin-left: -48px;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .f-top-two h1 , .f-top-two span {
+        font-size: 18px;
+    }
+
+    .f-top-two h2 , .f-top-two h3 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .footer-info p {
+        font-size: 11px;
+    }
+
+    .footer-icon {
+        margin-top: 68px;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+
+   
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+
+    .header-top {
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .about-wrapper{
+        text-align: center;
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+
+    .about h1::after {
+        top: 44px;
+    }
+
+    .about p{
+        font-size: 14px;
+    }
+
+    .details-right {
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .details-right h1::after {
+        left: 152px;
+    }
+
+    .details-right h1 {
+        margin-top: 12px;
+    }
+
+    .ser-details p {
+        padding: 0px 1px;
+    }
+
+    .blog-details{
+        text-align: center;
+    }
+
+    .pages-wrapper{
+        text-align: center;
+    }
+
+    .pa-our h1::after {
+        left: 162px;
+    }
+
+    .f-top-one , .footer-icon h1 , .footer-one-details h6 , .f-top-two h1 , .f-top-two h2 , .f-top-two h3 {
+        text-align: center;
+    }
+
+    .f-top-one h1{
+        margin-top: 12px;
+    }
+        
+    .item-one p , .footer-info p {
+        font-size: 12px;
+    }
+
+    .f-top-one h5 {
+        font-size: 14px;
+    }
+
+    .box{
+        display: none;
+    }
+
+
+    
+  }
